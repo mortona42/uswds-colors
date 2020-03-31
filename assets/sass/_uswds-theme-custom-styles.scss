@@ -1,0 +1,60 @@
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+
+//body::after {
+//  content: $palette-colors;
+//}
+
+//@each $name, $palette in $system-colors {
+//  //@debug $name;
+//
+//  @each $num, $color in $palette {
+//    //@debug $num;
+//
+//    @if $num == "vivid" {
+//      @each $vivid_num, $vivid_color in $color {
+//        //@debug $vivid-num;
+//        //@debug ".bg-#{$name}-#{$vivid_num}v"
+//
+//        @if $vivid_color {
+//          .bg-#{$name}-#{$vivid_num}v {
+//            @include u-bg(#{$name}-#{$vivid_num}v);
+//          }
+//        }
+//      }
+//    }
+//    @else {
+//      .bg-#{$name}-#{$num} {
+//        @include u-bg(#{$name}-#{$num});
+//      }
+//    }
+//  }
+
+  //@debug $colors;
+
+  //@each $color in $colors {
+  //  @debug "#{$color}";
+  //  .color-#{$color}:after {
+  //    content: $color;
+  //  }
+  //}
+//}
